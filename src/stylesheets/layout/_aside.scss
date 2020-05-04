@@ -1,0 +1,29 @@
+// ESTILOS DE CONTENEDOR -----------------------------------------
+.container__page--aside{
+    width: 100vw;
+    background-color: $bacKgroundAside;
+    border-bottom: 1px solid $colorTheme4;
+}
+.container__section--aside{
+    width: 100%;
+    height: $asideSectionHeightMobile;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @include mediaSize(tablet){
+        height: $asideSectionHeightTablet;
+    }
+    @include mediaSize(desktop){
+        height: $asideSectionHeightDesktop;
+    }
+}  
+
+// ESTILOS DE ELEMENTOS -------------------------------------------
+
+.aside__title{
+    padding-bottom: 20px;
+}
+
+
+

@@ -1,0 +1,27 @@
+// ESTILOS DE CONTENEDOR -----------------------------------------
+.container__page--header{
+    width: 100vw;
+    background-color: $backgroundHeader;
+    border-bottom: 2px solid $colorBlack;
+}
+.container__section--header{
+    width: 100%;
+    height: $headerHeightMobile;
+    padding-bottom: 7px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    @include mediaSize(tablet){
+        height: $headerHeightTablet;
+        padding-bottom: 15px;
+    }
+    @include mediaSize(desktop){
+        height: $headerHeightDesktop;
+        padding-bottom: 20px;
+    }
+}  
+
+
+// ESTILOS DE ELEMENTOS -------------------------------------------

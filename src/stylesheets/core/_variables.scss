@@ -1,0 +1,57 @@
+// THEME COLORS
+$colorTheme1: #ffde59;
+$colorTheme2: #EF27A6;
+$colorTheme3: #706F6F;
+$colorTheme4: #B0B5B3;
+$colorTheme5: #DBDBDB;
+
+$colorWhite: white;
+$colorBlack: black;
+$colorShadow: rgba(0,0,0,0.7);
+$colorTransparent: transparent;
+
+// TEXT COLORS
+$colorTextBase: $colorBlack;
+$colorTextMiddle: $colorTheme3;
+$colorTextLight: $colorWhite;
+$colorTextAlert: $colorTheme2;
+
+// FONTS
+$fontBig: 'Raleway', sans-serif;
+$fontBase: 'Raleway', sans-serif;
+$fontButton: 'Raleway', sans-serif;
+
+$fontExtraBold: 800;
+$fontBold: 700;
+$fontRegular: 400;
+
+// BACKGROUNDS
+$backgroundHeader: $colorWhite;
+$bacKgroundMain: $colorTransparent;
+$bacKgroundAside: $colorWhite;
+$backgroundFooter: $colorWhite;
+$backgroundParallax: $colorWhite;
+$backgroundContact: $colorTheme1;
+
+
+// MEASUREMENTS
+$headerHeightMobile: 50vh;
+$mainSectionHeightMobile: 100vh;
+$asideSectionHeightMobile: 100vh;
+$parallaxSectionHeightMobile: 70vh;
+$contactSectionHeightMobile: 90vh;
+$footerHeightMobile: 10vh;
+
+$headerHeightTablet: 50vh;
+$mainSectionHeightTablet: 100vh;
+$asideSectionHeightTablet: 100vh;
+$parallaxSectionHeightTablet: 70vh;
+$contactSectionHeightTablet: 100vh;
+$footerHeightTablet: 5vh;
+
+$headerHeightDesktop: 50vh;
+$mainSectionHeightDesktop: 100vh;
+$asideSectionHeightDesktop: 100vh;
+$parallaxSectionHeightDesktop: 70vh;
+$contactSectionHeightDescktop: 40vh;
+$footerHeightDesktop: 6vh;

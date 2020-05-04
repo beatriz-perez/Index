@@ -1,0 +1,28 @@
+// ESTILOS DE CONTENEDOR -----------------------------------------
+.container__page--parallaxSection{
+    width: 100vw;
+    background-color: $backgroundParallax;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+.container__section--parallaxSection{
+    width: 100%;
+    position: relative;
+
+    height: $parallaxSectionHeightMobile;
+    @include mediaSize(tablet){
+        height: $parallaxSectionHeightTablet;
+    }
+    @include mediaSize(desktop){
+        height: $parallaxSectionHeightDesktop;
+    }
+}  
+
+// ESTILOS DE ELEMENTOS -------------------------------------------
+
+.parallaxSection__title{
+    width: 100%;
+    @include centerAll;
+}

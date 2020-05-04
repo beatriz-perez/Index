@@ -1,0 +1,127 @@
+
+// TITLES
+.text__SITE--title{
+    font-family: Soulcraft;
+    color: $colorTextBase;
+    font-size: 60px;
+    @include mediaSize(tablet){
+        font-size: 100px;
+    }
+    @include mediaSize(desktop){
+        font-size: 160px;
+    }
+    .change1{
+        animation: titleTransform 5s linear infinite alternate;
+    }
+    .change2{
+        animation: titleTransform 5s linear 1.67s infinite alternate;
+    }
+    .change3{
+        animation: titleTransform 5s linear 3.34s infinite alternate;
+    }
+}
+@keyframes titleTransform {
+    0% {    font-variation-settings: "wdth" 0, "slnt" 0;}
+    40% {    font-variation-settings: "wdth" 0, "slnt" 0;}
+    60% {  font-variation-settings: "wdth" 100, "slnt" 0;}
+    100% {  font-variation-settings: "wdth" 100, "slnt" 0;}
+}
+
+.text__main--title{
+    font-family: 'Raleway', sans-serif;
+    color: $colorTextBase;
+    font-weight: $fontExtraBold;
+    font-size: 18px;
+    text-transform: none;
+    @include mediaSize(tablet){
+        font-size: 28px;
+    }
+    @include mediaSize(desktop){
+        font-size: 35px;
+    }
+}
+
+.text__section--title{
+    font-family: 'Raleway', sans-serif;
+    color: $colorTextBase;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    text-transform: none;
+    @include mediaSize(tablet){
+        font-size: 16px;
+        line-height: 16px;
+        }
+    @include mediaSize(desktop){
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+.text__parallax--quote{
+    font-family: 'Raleway', sans-serif;
+    color: $colorTextLight;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: none;
+    text-align: center;
+    text-shadow: 0 0 18px $colorShadow;
+    @include mediaSize(tablet){
+        font-size: 20px;
+        line-height: 20px;
+        }
+    @include mediaSize(desktop){
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+
+
+
+// TEXTS
+.text__main{
+    font-family: $fontBase;
+    color: $colorTextBase;
+    font-weight: $fontRegular;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: right;
+    &--bold{
+        font-weight: $fontBold;
+    }
+
+    font-size: 10px;
+    line-height: 19px;
+    @include mediaSize(tablet){
+        font-size: 18px;
+        line-height: 36px;
+        }
+    @include mediaSize(desktop){
+        font-size: 18px;
+        line-height: 36px;
+    }
+}
+
+.text__footer{
+    font-family: $fontBase;
+    color: $colorTextBase;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: $fontRegular;
+    text-transform: none;
+    &--link{
+        font-weight: $fontBold;
+        text-transform: none;
+    }
+    @include mediaSize(tablet){
+        font-size: 14px;
+        line-height: 14px;
+        }
+    @include mediaSize(desktop){
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+// BUTTON TEXTS

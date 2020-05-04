@@ -1,0 +1,32 @@
+// ESTILOS DE CONTENEDOR -----------------------------------------
+.container__page--contactSection{
+    width: 100vw;
+    background-color: $backgroundContact;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left top;
+    @include mediaSize(tablet){
+        background-size: contain;
+        background-attachment: scroll;
+    }
+    @include mediaSize(desktop){
+        background-size: contain;
+        background-attachment: scroll;
+    }
+}
+.container__section--contactSection{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    height: $contactSectionHeightMobile;
+    @include mediaSize(tablet){
+        height: $contactSectionHeightTablet;
+    }
+    @include mediaSize(desktop){
+        height: $contactSectionHeightDescktop;
+    }
+}  
+
+// ESTILOS DE ELEMENTOS -------------------------------------------

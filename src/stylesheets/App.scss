@@ -1,0 +1,36 @@
+// Reset, Variables y Mixins:
+@import './core/reset';
+@import './core/variables';
+@import './core/mixins';
+
+// Estilos por componente:
+@import './components/typography';
+@import './components/buttons';
+
+// Estilos de elementos por secciones:
+@import './layout/header';
+@import './layout/main';
+@import './layout/aside';
+@import './layout/parallax';
+@import './layout/contactSection';
+@import './layout/footer';
+
+
+// ESTILOS GENERALES DE PÁGINA ---------------------------------------
+.App{
+  width: 100vw;
+}
+.container__general{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  @include mediaSize(tablet){
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+  @include mediaSize(desktop){
+      padding-left: 3rem;
+      padding-right: 3rem;
+  } 
+}
