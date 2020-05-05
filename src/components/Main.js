@@ -11,21 +11,25 @@ class Main extends React.Component {
                     <div className="container__section--main">
 
                         <h2 className="main__title text__main--title" >
-                            brief story of a beginning
+                            beatriz pérez fernandez
                         </h2>
+                        <h3 className="main__title text__main--subtitle" >
+                            junior front-end developer
+                        </h3>
+
 
                         <div className="main__content">
-                            <p className="main__text1 text__main">
-                                Arquitecto y apasionada del diseño en todas sus vertientes, 
-                                mi <span className="text__main--bold">espíritu aventurero</span> me ha llevado a colaborar en multitud de proyectos diferentes en España y China. 
+                            <p className="main__text1 text__base">
+                                ¡Hola!
                             </p>
-                            <p className="main__text2 text__main">
-                                Para mí el cambio representa la oportunidad y el <span className="text__main--bold">reto</span>,<br/>
-                                 es siempre motivador.
-                            </p>
-                            <p className="main__text3 text__main">
-                                Con mucha <span className="text__main--bold">iniciativa</span>, facilidad para la <span className="text__main--bold">planificación</span> y <span className="text__main--bold">creatividad</span> aplicada a la resolución de problemas, 
-                                tras una década de edificación y urbanismo decido dar un giro hacia la <span className="text__main--bold">arquitectura digital</span> y el <span className="text__main--bold">FrontEnd</span> en busca de una profesión igualmente apasionante pero más flexible y dinámica.
+                            <p className="main__text1 text__base">
+                                Bienvenido a mi portfolio online.
+                                He desarrollado esta pequeña aplicación web para mostrarte mi recorrido y algunos de los proyectos en los que he trabajado por el camino que va de la arquitectura al FrontEnd.
+                                Espero que te gusten.
+                                Si es así, no dudes en contármelo! 
+                                Encontratrás mi información de contacto y redes sociales más abajo.
+
+
                             </p>
                         </div>
 

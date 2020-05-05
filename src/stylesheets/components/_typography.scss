@@ -30,16 +30,37 @@
 .text__main--title{
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
-    font-weight: $fontExtraBold;
+    font-weight: $fontBold;
     font-size: 18px;
+    line-height: 20px;
     text-transform: none;
     @include mediaSize(tablet){
         font-size: 28px;
+        line-height: 32px;
     }
     @include mediaSize(desktop){
         font-size: 35px;
+        line-height: 40px;
     }
 }
+.text__main--subtitle{
+    font-family: 'Raleway', sans-serif;
+    color: $colorTextBase;
+    font-weight: $fontRegular;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: none;
+    @include mediaSize(tablet){
+        font-size: 25px;
+        line-height: 30px;
+    }
+    @include mediaSize(desktop){
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+
 
 .text__section--title{
     font-family: 'Raleway', sans-serif;
@@ -80,6 +101,24 @@
 
 
 // TEXTS
+
+.text__base{
+    font-family: 'Raleway', sans-serif;
+    color: $colorTextBase;
+    font-weight: $fontRegular;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: none;
+    @include mediaSize(tablet){
+        font-size: 16px;
+        line-height: 18px;
+    }
+    @include mediaSize(desktop){
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
 .text__main{
     font-family: $fontBase;
     color: $colorTextBase;

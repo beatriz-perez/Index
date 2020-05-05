@@ -18,28 +18,3 @@
 
 // ESTILOS DE ELEMENTOS -------------------------------------------
 
-.main__content{
-    padding: 0 0 20px 25%;
-    margin: 0 auto;
-
-    height: calc(100% - 18px);
-    @include mediaSize(tablet){
-        height: calc(100% - 28px);
-    }
-    @include mediaSize(desktop){
-        height: calc(100% - 35px);
-    }
-    .main__text1{
-        width: 100%;
-        height: 25vh;
-        background-color: $colorTheme1;
-        padding: 3% 3% 3% 15%;
-        margin-top: 20vh;
-    }
-    .main__text2, .main__text3{
-        width: 100%;
-        padding: 3% 3% 3% 15%;
-        margin-top: 5vh;
-    }    
-
-}
