@@ -1,5 +1,5 @@
 {
-    "ProjectList": [
+    "ProjectsInfoList": [
         {
             "id": 1,
             "name": "Adalab Landing Page",
@@ -7,6 +7,7 @@
             "status": "finished",
             "type": "Proyecto individual realizado en Adalab",
             "description": "Proyecto realizado como alumna de Adalab para la evaluación intermedia del Módulo 1. Landing page para el portal de Adalab realizado con HTML y CSS.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/modulo-1-evaluacion-intermedia-beatriz-perez",
             "demoURL": "https://beatriz-perez.github.io/modulo-1-evaluacion-intermedia-beatriz-perez/"
         },
@@ -17,6 +18,7 @@
             "status": "finished",
             "type": "Proyecto individual realizado en Adalab",
             "description": "Proyecto realizado como alumna de Adalab para la evaluación final del Módulo 1. Website promocional realizado con HTML y SASS.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/modulo-1-evaluacion-final-beatriz-perez",
             "demoURL": "https://beatriz-perez.github.io/modulo-1-evaluacion-final-beatriz-perez/"
         },
@@ -27,6 +29,7 @@
             "status": "finished",
             "type": "Proyecto de grupo realizado en Adalab",
             "description": "Proyecto grupal realizado como alumna de Adalab durante el Módulo 1. Website de presentación de equipo realizado con HTML y SASS aplicando metodologías de trabajo colaborativo.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/project-promo-i-module-1-team-2-afternoon",
             "demoURL": "https://beatriz-perez.github.io/project-promo-i-module-1-team-2-afternoon/"
         },
@@ -37,6 +40,7 @@
             "status": "finished",
             "type": "Proyecto personal",
             "description": "",
+            "imageURL": "",
             "codeURL": "",
             "demoURL": ""
         },
@@ -47,6 +51,7 @@
             "status": "finished",
             "type": "Proyecto individual realizado en Adalab",
             "description": "Proyecto realizado como alumna de Adalab para la evaluación intermedia del Módulo 2. Juego que consiste en adivinar un número aleatorio guiándonos por las pistas que nos devuelve el programa con cada intento. Realizado con HTML, CSS y JavaScript.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/modulo-2-evaluacion-intermedia-beatriz-perez",
             "demoURL": "https://beatriz-perez.github.io/modulo-2-evaluacion-intermedia-beatriz-perez/"
         },
@@ -57,6 +62,7 @@
             "status": "finished",
             "type": "Proyecto individual realizado en Adalab",
             "description": "Proyecto realizado como alumna de Adalab para la evaluación final del Módulo 2. Web de búsqueda de series que nos permite guardar nuestras favoritas y consultar información de cada una de ellas, así como acceder a sus websites oficiales. Realizado con HTML, SASS y JavaScript.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/modulo-2-evaluacion-final-beatriz-perez",
             "demoURL": "https://beatriz-perez.github.io/modulo-2-evaluacion-final-beatriz-perez/"
         },
@@ -67,6 +73,7 @@
             "status": "finished",
             "type": "Proyecto de grupo realizado en Adalab",
             "description": "Proyecto grupal realizado como alumna de Adalab durante el Módulo 2. Website de creación de tarjetas de presentación compartibles realizado con HTML, SASS y JavasCript aplicando marcos de trabajo colaborativo y Agile.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/project-promo-i-module-2-team-4-afternoon",
             "demoURL": "https://beatriz-perez.github.io/project-promo-i-module-2-team-4-afternoon/"
         },
@@ -77,6 +84,7 @@
             "status": "finished",
             "type": "Proyecto personal",
             "description": "Aplicación web realizada al comienzo de la Crisis del Coronavirus en la que el usuario puede realizar preguntas acerca del futuro que serán respondidas por la bola 8 mágica. Realizada empleando HTML, CSS y JavasCript.",
+            "imageURL": "https://repository-images.githubusercontent.com/247236546/dc9b6180-660d-11ea-86c7-e9fe77fb0e44",
             "codeURL": "https://github.com/beatriz-perez/Ask-The-Ball",
             "demoURL": "https://beatriz-perez.github.io/Ask-The-Ball/"
         },
@@ -87,6 +95,7 @@
             "status": "finished",
             "type": "Proyecto individual realizado en Adalab",
             "description": "Proyecto realizado como alumna de Adalab para la evaluación intermedia del Módulo 3. Web desarrollada con React que consiste en un listado de pokemon con una tarjeta para cada uno con información relevante, como el nombre, tipos y una imagen.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/modulo-3-evaluacion-intermedia-beatriz-perez",
             "demoURL": "https://beatriz-perez.github.io/modulo-3-evaluacion-intermedia-beatriz-perez/"
         },
@@ -97,6 +106,7 @@
             "status": "finished",
             "type": "Proyecto individual realizado en Adalab",
             "description": "Proyecto realizado como alumna de Adalab para la evaluación final del Módulo 3. Página web con un listado de personajes de Rick and Morty, que podemos filtrar por nombre, especie, estado... Desarrollado empleando React y SASS.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/modulo-3-evaluacion-final-beatriz-perez",
             "demoURL": "https://beatriz-perez.github.io/modulo-3-evaluacion-final-beatriz-perez/"
         },
@@ -107,6 +117,7 @@
             "status": "finished",
             "type": "Proyecto de grupo realizado en Adalab",
             "description": "Proyecto grupal de refactorización de código heredado realizado como alumna de Adalab durante el Módulo 3. Website de creación de tarjetas de presentación compartibles realizado con React y SASS aplicando marcos de trabajo colaborativo y Agile.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/project-promo-i-module-3-team-1-afternoon-beatriz-perez",
             "demoURL": "https://beatriz-perez.github.io/project-promo-i-module-3-team-1-afternoon-beatriz-perez/"
         },
@@ -117,6 +128,7 @@
             "status": "ongoing",
             "type": "Proyecto personal",
             "description": "Portfolio online desarrollado con React y Sass para la presentación y exposición ordenada de los royectos realizados por Beatriz Pérez como FrontEnd Devaloper.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/Index",
             "demoURL": "https://beatriz-perez.github.io/Index/"
         },
@@ -127,6 +139,7 @@
             "status": "ongoing",
             "type": "Proyecto personal",
             "description": "Aplicación web de búsqueda y realización de listados de usuarios y repositorios de GitHub según criterios a definir por el usuario. Desarrollada con React.",
+            "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/check-my-repos",
             "demoURL": ""
         },
@@ -136,6 +149,7 @@
             "status": "",
             "type": "",
             "description": "",
+            "imageURL": "",
             "codeURL": "",
             "demoURL": ""
         }

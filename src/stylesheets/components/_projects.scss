@@ -1,0 +1,65 @@
+.projectList{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 260px;
+    grid-auto-flow: row;
+    grid-auto-rows: 260px;
+    grid-gap: 1rem 0;
+    @include mediaSize(tablet){
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @include mediaSize(desktop){
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .listElement{
+        grid-column: span 1;
+        grid-row: span 1;
+        position: relative;
+
+        .project__card--rotateArea {
+            @include centerAll();
+            background-color: $colorTransparent;
+            width: 250px;
+            height: 250px;
+            perspective: 1000px;
+            .project__card {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                border: 1px solid $colorBlack;
+                box-shadow: 0 0 7px 4px $colorTheme5;
+
+                transition: transform 1s;
+                transform-style: preserve-3d;
+
+                .project__card--front {
+                    background-color: #bbb;
+                    color: black;
+                }
+                
+                .project__card--back {
+                background-color: dodgerblue;
+                color: white;
+                transform: rotateY(180deg);
+                }
+            }
+
+            &:hover .project__card {
+                transform: rotateY(180deg);
+            }
+        }
+            
+            
+            
+        .project__card--front, .project__card--back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+        }
+              
+            
+    }
+}

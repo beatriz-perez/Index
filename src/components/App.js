@@ -1,18 +1,27 @@
 import React from 'react';
+
+// Styles:
 import '../stylesheets/App.scss';
-import Header from './Header';
-import Main from './Main';
-import ParallaxSection from './ParallaxSection';
-import Aside from './Aside';
-import ContactSection from './ContactSection';
-import Footer from './Footer';
+
+// Data:
+import ProjectsInfoList from '../data/projects.json';
+
+// Components:
+import Header from './Layout/Header';
+import Main from './Layout/Main';
+import ParallaxSection from './Layout/ParallaxSection';
+import Aside from './Layout/Aside';
+import ProjectList from './Projects/ProjectList';
+import ContactSection from './Layout/ContactSection';
+import Footer from './Layout/Footer';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.handleScroll = this.handleScroll.bind(this);
     this.state = {
-      scrollY: 0
+      scrollY: 0,
+      projectsInfo: ProjectsInfoList
     }
   }
   componentDidMount() {
@@ -56,6 +65,7 @@ class App extends React.Component {
           id="aside2" 
           asideTitle="Ejercicios y PROYECTOS realizados" 
           asideRole="listado de proyectos">
+            <ProjectList info={this.state.projectsInfo}/>
         </Aside>
 
         <ContactSection/>        
