@@ -17,7 +17,7 @@ class Footer extends React.Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             > beatriz </a>
-                            <i class="icon fas fa-user-astronaut"></i>
+                            <i className="icon fas fa-user-astronaut"></i>
                         </p>
 
                     </div>

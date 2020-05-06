@@ -4,7 +4,7 @@ class Header extends React.Component {
 
     render() {
         return (
-            <header className="container__page--header" id="header" role="navigation">
+            <header className="container__page--header" id="header" role="banner">
                 <div className="container__general">
                     <div className="container__section--header">
 

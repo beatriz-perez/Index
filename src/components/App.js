@@ -14,13 +14,11 @@ class App extends React.Component {
       <div className="App">
         <Header/>
         <Main />
-
         <ParallaxSection 
           id="parallax1" 
           quote="this is just the very beginning..."
           imgURL="https://66.media.tumblr.com/748fbc350eea31d4cbf153ade7b7795e/tumblr_ps7ycg53XQ1sfie3io1_1280.jpg" 
         />
-
         <Aside 
           id="aside1" 
           asideTitle="Título de sección Aside" 
@@ -39,12 +37,7 @@ class App extends React.Component {
           asideRole="listado de proyectos">
         </Aside>
 
-        <ContactSection 
-          id="contactSection" 
-          title="Contact me!"
-        >
-        </ContactSection>
-        
+        <ContactSection/>        
         <Footer/>
 
       </div>

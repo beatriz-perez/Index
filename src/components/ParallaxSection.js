@@ -7,7 +7,7 @@ class ParallaxSection extends React.Component {
             <section
                 className="container__page--parallaxSection"
                 id={this.props.id}
-                role="quote and background image"
+                role="figure"
                 style={{ backgroundImage: `url(${this.props.imgURL})` }}
             >
                 <div className="container__general">

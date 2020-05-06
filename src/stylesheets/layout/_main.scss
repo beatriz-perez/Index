@@ -18,3 +18,17 @@
 
 // ESTILOS DE ELEMENTOS -------------------------------------------
 
+.main__title{
+}
+.main__text{
+
+}
+.main__content{
+    margin-top: 20%;
+    margin-left: 40%;
+    padding: 25px;
+    background-color: $colorTheme1;;
+    .main__text{
+        margin: 15px;
+    }
+}
