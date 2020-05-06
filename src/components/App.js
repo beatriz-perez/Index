@@ -8,12 +8,33 @@ import ContactSection from './ContactSection';
 import Footer from './Footer';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleScroll = this.handleScroll.bind(this);
+    this.state = {
+      scrollY: 0
+    }
+  }
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll(event) { //--------------------------------> CONTROLA EL SCROLL DE LA VENTANA Y LO PASA AL ESTADO
+      let distanceToTop = window.scrollY;
+      this.setState({
+        scrollY: distanceToTop
+      });
+  }
+
 
   render() {
     return (
       <div className="App">
         <Header/>
-        <Main />
+        <Main info={this.state.scrollY}/>
         <ParallaxSection 
           id="parallax1" 
           quote="this is just the very beginning..."
