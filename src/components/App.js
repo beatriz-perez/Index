@@ -11,11 +11,13 @@ import Header from './Layout/Header';
 import Main from './Layout/Main';
 import ParallaxSection from './Layout/ParallaxSection';
 import Aside from './Layout/Aside';
+import Bio from './Bio/Bio';
+import Resume from './Bio/Resume';
 import ProjectList from './Projects/ProjectList';
 import ContactSection from './Layout/ContactSection';
 import Footer from './Layout/Footer';
 
-class App extends React.Component {
+export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.handleScroll = this.handleScroll.bind(this);
@@ -31,28 +33,33 @@ class App extends React.Component {
     window.removeEventListener('scroll', this.handleScroll);
   }
 
-  handleScroll(event) { //--------------------------------> CONTROLA EL SCROLL DE LA VENTANA Y LO PASA AL ESTADO
+  handleScroll(event) {
       let distanceToTop = window.scrollY;
       this.setState({
         scrollY: distanceToTop
       });
   }
 
-
   render() {
     return (
       <div className="App">
         <Header/>
         <Main info={this.state.scrollY}/>
+        
         <ParallaxSection 
           id="parallax1" 
           quote="this is just the very beginning..."
           imgURL="https://66.media.tumblr.com/748fbc350eea31d4cbf153ade7b7795e/tumblr_ps7ycg53XQ1sfie3io1_1280.jpg" 
         />
+
         <Aside 
-          id="aside1" 
-          asideTitle="Título de sección Aside" 
-          asideRole="Función de la sección">
+          id="bio" 
+          title="bio" 
+          description="esta soy yo, aquí puedes conocer mis andanzas profesionales y descargar mi CV, o compartirlo si se te ocurre alguien con quien sería genial colaborar"
+          themeColor="false"
+        >
+          <Bio/>
+          <Resume />
         </Aside>
 
         <ParallaxSection 
@@ -62,18 +69,25 @@ class App extends React.Component {
         />
 
         <Aside 
-          id="aside2" 
-          asideTitle="Ejercicios y PROYECTOS realizados" 
-          asideRole="listado de proyectos">
+          id="works" 
+          title="works" 
+          description="estos son algunos de mis trabajos, puedes filtrarlos y ordenarlos para ver los que más te interesen"
+          themeColor="false"
+          >
             <ProjectList info={this.state.projectsInfo}/>
         </Aside>
 
-        <ContactSection/>        
-        <Footer/>
+        <Aside 
+          id="contact" 
+          title="contact" 
+          description="si lo que has visto te parece interesante, no dudes en ponerte en contacto comnigo, me encantará tener noticias tuyas!"
+          themeColor="false"
+        >
+          <ContactSection/>        
+        </Aside>
 
+        <Footer/>
       </div>
     );
   }
 }
-
-export default App;

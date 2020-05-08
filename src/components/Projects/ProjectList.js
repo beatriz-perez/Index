@@ -32,8 +32,8 @@ export default class ProjectList extends Component {
 
         return (
             <div>
-                <p className="resultsInfo text__base">{totalInfoText}</p>
-                <p className="resultsInfo text__base">{resultInfoText}</p>
+                <p className="resultsInfo text__section--text">{totalInfoText}</p>
+                <p className="resultsInfo text__section--text">{resultInfoText}</p>
                 <ul className="projectList">
                     {resultsArray}
                 </ul>

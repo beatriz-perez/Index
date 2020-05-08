@@ -1,6 +1,7 @@
 
-// TITLES
-.text__SITE--title{
+// SITE TITLE
+.text__site--title{
+    cursor: default;
     font-family: Soulcraft;
     color: $colorTextBase;
     font-size: 60px;
@@ -27,7 +28,9 @@
     100% {  font-variation-settings: "wdth" 100, "slnt" 0;}
 }
 
-.text__main--title{
+// MAIN SECTION TEXTS
+.text__main--name{
+    cursor: default;
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
     font-weight: $fontBold;
@@ -43,7 +46,8 @@
         line-height: 40px;
     }
 }
-.text__main--subtitle{
+.text__main--position{
+    cursor: default;
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
     font-weight: $fontRegular;
@@ -59,27 +63,27 @@
         line-height: 35px;
     }
 }
-
-
-
-.text__section--title{
+.text__main--introduction{
+    cursor: default;
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
-    font-size: 14px;
+    font-weight: $fontRegular;
+    font-size: 12px;
     line-height: 14px;
-    font-weight: 700;
     text-transform: none;
     @include mediaSize(tablet){
         font-size: 16px;
-        line-height: 16px;
-        }
+        line-height: 18px;
+    }
     @include mediaSize(desktop){
         font-size: 20px;
-        line-height: 20px;
+        line-height: 25px;
     }
 }
 
+// PARALLAX TEXTS
 .text__parallax--quote{
+    cursor: default;
     font-family: 'Raleway', sans-serif;
     color: $colorTextLight;
     font-size: 18px;
@@ -98,49 +102,64 @@
     }
 }
 
+// GENERAL SECTION TEXTS
+.text__section--title{
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    color: $colorTextBase;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: $fontBold;
+    text-transform: none;
+    @include mediaSize(tablet){
+        font-size: 16px;
+        line-height: 16px;
+        }
+    @include mediaSize(desktop){
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+.text__section--text{
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    color: $colorTextBase;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: $fontRegular;
+    text-transform: none;
+    @include mediaSize(tablet){
+        font-size: 14px;
+        line-height: 16px;
+        }
+    @include mediaSize(desktop){
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+
 
 
 // TEXTS
 
-.text__base{
+.text__detail{
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
     font-weight: $fontRegular;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 10px;
+    line-height: 12px;
     text-transform: none;
     @include mediaSize(tablet){
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 12px;
+        line-height: 14px;
     }
     @include mediaSize(desktop){
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 14px;
+        line-height: 17px;
     }
 }
 
-.text__main{
-    font-family: $fontBase;
-    color: $colorTextBase;
-    font-weight: $fontRegular;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: right;
-    &--bold{
-        font-weight: $fontBold;
-    }
-
-    font-size: 10px;
-    line-height: 19px;
-    @include mediaSize(tablet){
-        font-size: 18px;
-        line-height: 36px;
-        }
-    @include mediaSize(desktop){
-        font-size: 18px;
-        line-height: 36px;
-    }
-}
 
 .text__footer{
     font-family: $fontBase;

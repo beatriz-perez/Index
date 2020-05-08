@@ -8,8 +8,8 @@
     height: auto;
     min-height: $asideSectionHeightMobile;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
     @include mediaSize(tablet){
         height: auto;
@@ -23,9 +23,121 @@
 
 // ESTILOS DE ELEMENTOS -------------------------------------------
 
-.aside__title{
-    padding-bottom: 20px;
+.aside__titleBox{
+    position: relative;
+    height: 120px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: $colorTheme1;  // a condicional (y también color de forma)
+    padding-left: 30px;
+    padding-right: 30%;
+
+    &--colorshape{
+        position: absolute;
+        width: 0;
+        height: 0;
+        animation: shapeTransform 20s linear 3.34s infinite;
+    }
+    @keyframes shapeTransform {
+        0% { //Línea
+            border-left: 10px solid $colorTheme1;
+            border-right: 10px solid $colorTheme1;
+            border-top: solid 120px $colorTheme1;
+            left: 0px;
+            bottom: 0;
+        }
+        50%{
+            border-left: 10px solid $colorTheme1;
+            border-right: 10px solid $colorTheme1;
+            border-top: solid 120px $colorTheme1;
+            left: 0px;
+            bottom: 0;
+        }
+        53%{ //Disminuye anchura
+            border-left: 0px solid $colorTheme1;
+            border-right: 0px solid $colorTheme1;
+            border-top: solid 120px $colorTheme1;
+            left: 0px;
+            bottom: 0;
+        }
+        54%{ //bordes transparentes
+            border-left: 0px solid transparent;
+            border-right: 0px solid transparent;
+            border-top: solid 120px $colorTheme1;
+            left: 0px;
+            bottom: 0;
+        }
+        57%{ //aumenta anchura arriba y centra
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: solid 120px $colorTheme1;
+            left: -16px;
+            bottom: 0;
+        }
+        60%{ 
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: solid 120px $colorTheme1;
+            left: -16px;
+            bottom: 0;
+        }
+        63% { //se acorta hacia abajo
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: solid 50px $colorTheme1;
+            left: -16px;
+            bottom: 0;
+        }
+        87%{ //MANTIENE LA FLECHA
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: solid 50px $colorTheme1;
+            left: -16px;
+            bottom: 0;
+        }
+        90% { //disminuye anchura y desaparece
+            border-left: 0px solid transparent;
+            border-right: 0px solid transparent;
+            border-top: solid 50px $colorTheme1;
+            left: 0px;
+            bottom: 0;
+        }
+        93% { // (invisible) elimina altura y sube
+            border-left: 0px solid transparent;
+            border-right: 0px solid transparent;
+            border-top: solid 0px $colorTheme1;
+            left: 0px;
+            bottom: 120;
+        }
+        94% { // devuelve color a bordes laterales
+            border-left: 0px solid $colorTheme1;
+            border-right: 0px solid $colorTheme1;
+            border-top: solid 0px $colorTheme1;
+            left: 0px;
+            bottom: 120;
+        }
+        97% {
+            border-left: 10px solid $colorTheme1;
+            border-right: 10px solid $colorTheme1;
+            border-top: solid 1px $colorTheme1;
+            left: 0px;
+            bottom: 120;
+        }
+        100%{
+            border-left: 10px solid $colorTheme1;
+            border-right: 10px solid $colorTheme1;
+            border-top: solid 120px $colorTheme1;
+            left: 0px;
+            bottom: 0;
+        }
+    }
+
+    &--title{
+        top: 15px;
+        left: 15px;
+    }
+
+    &--description{
+        margin-top: 10px;
+    }
 }
-
-
-

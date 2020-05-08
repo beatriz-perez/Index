@@ -8,7 +8,7 @@ class Header extends React.Component {
                 <div className="container__general">
                     <div className="container__section--header">
 
-                        <h1 className="text__SITE--title">
+                        <h1 className="text__site--title">
                             P
                             <span className="change1">O</span>
                             RTF
