@@ -1,0 +1,44 @@
+.bio-box{
+    padding: 10px;
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    grid-gap: 20px 20px;
+    @include mediaSize(tablet){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include mediaSize(desktop){
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bio, .file-box{
+        background: linear-gradient(rgba( 0, 0, 0, 0.03), $colorTransparent);
+        padding: 20px;
+    }
+
+    .bio{
+        grid-column: span 1;
+        grid-row: span 2;
+    
+        &__picture{
+            height: 200px;
+            width: 200px;
+            margin-left: calc(50% - 100px);
+            margin-bottom: 20px;
+            margin-top: 20px;
+            border-radius: 50%;
+            filter: grayscale(1);
+        }
+        &__text{
+            margin-bottom: 10px;
+        }
+    }
+    .file-box{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
