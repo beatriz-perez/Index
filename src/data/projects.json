@@ -44,17 +44,17 @@
         },
         {
             "id": 4,
-            "name": "",
+            "name": "CSS: libro de hechizos",
             "created": {
                 "year": 2020,
-                "month": 2
+                "month": 3
             },
             "status": "finished",
             "type": "proyecto personal",
-            "description": "",
+            "description": "Proyecto personal realizado como práctica de maquetación. Web realizada con HTML y CSS en la que se recopilan métodos y trucos.",
             "imageURL": "",
-            "codeURL": "",
-            "demoURL": ""
+            "codeURL": "https://github.com/beatriz-perez/CSS-libro-de-hechizos",
+            "demoURL": "https://beatriz-perez.github.io/CSS-libro-de-hechizos/"
         },
         {
             "id": 5,

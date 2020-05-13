@@ -54,7 +54,7 @@ export default class App extends React.Component {
         <Aside 
           id="bio" 
           title="bio" 
-          description="esta soy yo, aquí puedes conocer mis andanzas profesionales y descargar mi CV, o compartirlo si se te ocurre alguien con quien sería genial colaborar"
+          description="Esta soy yo. Aquí puedes conocer mis andanzas profesionales y descargar mi CV, o compartirlo si se te ocurre alguien con quien sería genial colaborar"
           themeColor="false"
         >
           <Bio/>

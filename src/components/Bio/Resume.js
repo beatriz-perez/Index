@@ -17,7 +17,7 @@ export default class Resume extends Component {
                         target = "_blank" 
                         className="download-button button__base text__regular"
                     > 
-                        Descargar CV en PDF, español
+                        Descargar CV en PDF, castellano
                     </a>
                     <a 
                         href = {PdfEs}
@@ -38,7 +38,7 @@ export default class Resume extends Component {
                     </p>
 
                     <p className="cv__text text__regular">
-                        Puedes visualizarlo y descargarlo o compartirlo tanto en castellano como en inglés.
+                        Puedes visualizarlo y descargarlo o compartirlo en su versión en castellano o en inglés.
                     </p>
                 </div>
                 

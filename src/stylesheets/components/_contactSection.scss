@@ -1,0 +1,29 @@
+.contact{
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+
+    &__blockList{
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+
+        &--block{
+        }
+        &--title{
+            margin-bottom: 20px;
+        }
+        &--item{
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.contact-icon{
+    font-size: 20px;
+    margin: 3px;
+}
