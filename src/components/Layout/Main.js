@@ -40,10 +40,11 @@ class Main extends React.Component {
                                 ¡Me alegra verte por aquí!
                             </p>
                             <p className="main__text text__main--introduction">
-                                He desarrollado esta pequeña aplicación web <br/> 
+                                He desarrollado esta pequeña aplicación web, <br/> 
                                 para mostrarte mi recorrido y algunos de los proyectos <br/>
                                 en los que he trabajado por el camino que va <br/>
                                 de la Arquitectura al FrontEnd.
+                                
                             </p>
                             <p className="main__text text__main--introduction">
                                 Espero que te gusten.<br/>

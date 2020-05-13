@@ -12,9 +12,8 @@ import Main from './Layout/Main';
 import ParallaxSection from './Layout/ParallaxSection';
 import Aside from './Layout/Aside';
 import Bio from './Bio/Bio';
-import Resume from './Bio/Resume';
 import ProjectList from './Projects/ProjectList';
-import ContactSection from './Layout/ContactSection';
+import Contact from './Contact/Contact';
 import Footer from './Layout/Footer';
 
 export default class App extends React.Component {
@@ -59,7 +58,6 @@ export default class App extends React.Component {
           themeColor="false"
         >
           <Bio/>
-          <Resume />
         </Aside>
 
         <ParallaxSection 
@@ -83,7 +81,7 @@ export default class App extends React.Component {
           description="si lo que has visto te parece interesante, no dudes en ponerte en contacto comnigo, me encantará tener noticias tuyas!"
           themeColor="false"
         >
-          <ContactSection/>        
+          <Contact/>        
         </Aside>
 
         <Footer/>

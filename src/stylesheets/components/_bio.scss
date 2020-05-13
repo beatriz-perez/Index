@@ -1,6 +1,6 @@
 .bio-box{
-    padding: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
     display: grid;
     grid-template-columns: 1fr;
@@ -16,7 +16,8 @@
     }
 
     .bio, .file-box{
-        background: linear-gradient(rgba( 0, 0, 0, 0.03), $colorTransparent);
+        background: linear-gradient($colorTransparent 0%, $colorTransparent 50%, $colorTheme2 100%);
+        background-blend-mode: darken;
         padding: 20px;
     }
 
@@ -25,20 +26,70 @@
         grid-row: span 2;
     
         &__picture{
-            height: 200px;
-            width: 200px;
-            margin-left: calc(50% - 100px);
+            height: 220px;
+            width: 220px;
             margin-bottom: 20px;
-            margin-top: 20px;
             border-radius: 50%;
-            filter: grayscale(1);
+            box-shadow: 0 0 7px 4px $colorTheme5;
         }
         &__text{
             margin-bottom: 10px;
+            &--title{
+                margin-top: 20px;
+            }
         }
     }
     .file-box{
         grid-column: span 1;
         grid-row: span 1;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+        .column1{
+            margin-right: 20px;
+
+            .cv-image{
+                width: 250px;
+                height: 350px;
+            }
+            .download-button{
+                width: 250px;
+                text-align: center;
+                margin-top: 10px;
+            }
+    
+            .LI-profile-badge{
+            
+            }
+            .share-twitter-button{
+                width: 250px;
+                text-align: center;
+                margin-top: 10px;
+                .twitterIcon{
+                    margin-right: 15px;
+                    font-size: 20px;
+                    color: #00a0f5;
+                    text-shadow: 0 0 1px $colorTheme3;
+                }
+            }
+            .share-whatsapp-button{
+                width: 250px;
+                text-align: center;
+                margin-top: 10px;
+                .whatsappIcon{
+                    margin-right: 15px;
+                    font-size: 20px;
+                    color: #1BD741;
+                    text-shadow: 0 0 1px $colorTheme3;
+                }
+            }
+        }
+        .column2{
+            .cv__text{
+                margin-bottom: 10px;
+            }    
+        }
     }
 }

@@ -23,10 +23,10 @@ export default class ProjectCard extends Component {
                         <p className="project__name text__section--title">
                             {name}
                         </p>
-                        <p className="project__type text__detail">
+                        <p className="project__type text__regular">
                                 {type}
                         </p>
-                        <p className="project__date text__detail">
+                        <p className="project__date text__regular">
                                 {`${monthName} de ${year}`}
                         </p>
                         
@@ -36,14 +36,14 @@ export default class ProjectCard extends Component {
                     </div>
 
                     <div className="project__card--back">
-                        <p className="project__description text__detail">
+                        <p className="project__description text__regular">
                             {description}
                         </p>
                         <div>
-                            <a className="button__base text__detail" href={codeURL} target="_blank">
+                            <a className="button__base text__regular" href={codeURL} target="_blank">
                                 ver repositorio y código
                             </a>
-                            <a className="button__base text__detail" href={demoURL} target="_blank">
+                            <a className="button__base text__regular" href={demoURL} target="_blank">
                                 ver la web funcionando
                             </a>
                         </div>

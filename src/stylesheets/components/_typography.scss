@@ -143,7 +143,7 @@
 
 // TEXTS
 
-.text__detail{
+.text__regular{
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
     font-weight: $fontRegular;
@@ -159,6 +159,23 @@
         line-height: 17px;
     }
 }
+.text__bold{
+    font-family: 'Raleway', sans-serif;
+    color: $colorTextBase;
+    font-weight: $fontBold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: none;
+    @include mediaSize(tablet){
+        font-size: 12px;
+        line-height: 14px;
+    }
+    @include mediaSize(desktop){
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
 
 
 .text__footer{
