@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dcb5e663512e45861a83a759fd21ba8e",
+    "revision": "349b7cbe3a832f3bd8c9ca62f94292b1",
     "url": "./index.html"
   },
   {
-    "revision": "ba8b7b3fe933d127af01",
-    "url": "./static/css/main.cede4026.chunk.css"
+    "revision": "ead8987ace1e1626360f",
+    "url": "./static/css/main.d1603e27.chunk.css"
   },
   {
     "revision": "4deffc4fbca7d24f71d3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.adf66301.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba8b7b3fe933d127af01",
-    "url": "./static/js/main.97d926cc.chunk.js"
+    "revision": "ead8987ace1e1626360f",
+    "url": "./static/js/main.e2a64aba.chunk.js"
   },
   {
     "revision": "b534f079d1572efbf673",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "29d6da613cd589447ee164a54938a4f4",
     "url": "./static/media/Resume-Beatriz-Perez FrontEnd.29d6da61.pdf"
+  },
+  {
+    "revision": "cd5642cd8ea7b97adec61443f4262162",
+    "url": "./static/media/Soulcraft.cd5642cd.ttf"
   },
   {
     "revision": "95b885ace35426b5b2577978a2c87444",
