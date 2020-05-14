@@ -61,19 +61,9 @@ export default class Bio extends Component {
                         control de versiones con Git <i className="fab fa-git skill-icon"></i> 
                         y GitHub <i className="fab fa-github skill-icon"></i> y técnicas de trabajo colaborativo
                         <br/> 
-                        <br/> 
                         marcos de trabajo <span className="text__bold">Agile</span> y <span className="text__bold">Scrum</span>
                         <br/> 
-                        <br/> 
                     </p>
-
-                    <p className="bio__text bio__text--title text__regular">
-                        Puedes ver más información en mi <span className="text__bold">CV y mi perfil de Linkedin</span> <i className="fas fa-arrow-right"></i>
-                    </p>
-                    <p className="bio__text text__regular">
-                        Y encontrarás algunos de mis <span className="text__bold">proyectos</span> un poco más abajo <i className="fas fa-arrow-down"></i>
-                    </p>
-
                 </div>
 
 

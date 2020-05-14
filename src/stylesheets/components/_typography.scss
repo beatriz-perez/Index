@@ -1,9 +1,13 @@
 
 // SITE TITLE
+@font-face {
+    font-family: Soulcraft;
+    src: url(../../Soulcraft.ttf);
+}
+
 .text__site--title{
     cursor: default;
     font-family: Soulcraft, 'Raleway', sans-serif;
-    font-weight: $fontExtraBold;
     color: $colorTextBase;
     font-size: 60px;
     @include mediaSize(tablet){
