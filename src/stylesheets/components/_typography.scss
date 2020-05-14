@@ -2,7 +2,8 @@
 // SITE TITLE
 .text__site--title{
     cursor: default;
-    font-family: Soulcraft, 'Raleway', sans-serif;;
+    font-family: Soulcraft, 'Raleway', sans-serif;
+    font-weight: $fontExtraBold;
     color: $colorTextBase;
     font-size: 60px;
     @include mediaSize(tablet){
@@ -34,8 +35,8 @@
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
     font-weight: $fontBold;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 24px;
     text-transform: none;
     @include mediaSize(tablet){
         font-size: 28px;
@@ -51,8 +52,8 @@
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
     font-weight: $fontRegular;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 20px;
     text-transform: none;
     @include mediaSize(tablet){
         font-size: 25px;
@@ -68,12 +69,12 @@
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
     font-weight: $fontRegular;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 16px;
     text-transform: none;
     @include mediaSize(tablet){
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 18px;
+        line-height: 20px;
     }
     @include mediaSize(desktop){
         font-size: 20px;
@@ -107,13 +108,13 @@
     cursor: default;
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 16px;
     font-weight: $fontBold;
     text-transform: none;
     @include mediaSize(tablet){
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 18px;
+        line-height: 18px;
         }
     @include mediaSize(desktop){
         font-size: 20px;
@@ -124,8 +125,8 @@
     cursor: default;
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 16px;
     font-weight: $fontRegular;
     text-transform: none;
     @include mediaSize(tablet){
@@ -147,8 +148,8 @@
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
     font-weight: $fontRegular;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 14px;
     text-transform: none;
     @include mediaSize(tablet){
         font-size: 12px;
@@ -163,8 +164,8 @@
     font-family: 'Raleway', sans-serif;
     color: $colorTextBase;
     font-weight: $fontBold;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 14px;
     text-transform: none;
     @include mediaSize(tablet){
         font-size: 12px;

@@ -52,7 +52,7 @@
             "status": "ongoing",
             "type": "proyecto personal",
             "description": "Proyecto personal realizado como práctica de maquetación. Web realizada con HTML y CSS en la que se recopilan métodos y trucos.",
-            "imageURL": "",
+            "imageURL": "https://repository-images.githubusercontent.com/246540742/56e06600-95fe-11ea-824a-1ae79efb846a",
             "codeURL": "https://github.com/beatriz-perez/CSS-libro-de-hechizos",
             "demoURL": "https://beatriz-perez.github.io/CSS-libro-de-hechizos/"
         },
@@ -178,9 +178,9 @@
             "status": "ongoing",
             "type": "proyecto personal",
             "description": "Aplicación web de búsqueda y realización de listados de usuarios y repositorios de GitHub según criterios a definir por el usuario. Desarrollada con React.",
-            "imageURL": "",
+            "imageURL": "https://repository-images.githubusercontent.com/255313584/6ad79800-95fd-11ea-80e2-0b5e23b8e77f",
             "codeURL": "https://github.com/beatriz-perez/check-my-repos",
-            "demoURL": ""
+            "demoURL": "https://beatriz-perez.github.io/check-my-repos/"
         }
     ]
 }
