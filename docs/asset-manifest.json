@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.d1603e27.chunk.css",
+    "main.css": "./static/css/main.bb3c795a.chunk.css",
     "main.js": "./static/js/main.e2a64aba.chunk.js",
     "main.js.map": "./static/js/main.e2a64aba.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.62779cc3.js",
@@ -8,9 +8,9 @@
     "static/js/2.adf66301.chunk.js": "./static/js/2.adf66301.chunk.js",
     "static/js/2.adf66301.chunk.js.map": "./static/js/2.adf66301.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.c29595892dc64d3f41db1158a511a4ea.js": "./precache-manifest.c29595892dc64d3f41db1158a511a4ea.js",
+    "precache-manifest.82543fcc33f119325c1a204e069d96ae.js": "./precache-manifest.82543fcc33f119325c1a204e069d96ae.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.d1603e27.chunk.css.map": "./static/css/main.d1603e27.chunk.css.map",
+    "static/css/main.bb3c795a.chunk.css.map": "./static/css/main.bb3c795a.chunk.css.map",
     "static/js/2.adf66301.chunk.js.LICENSE.txt": "./static/js/2.adf66301.chunk.js.LICENSE.txt",
     "static/media/CV-Beatriz-Perez-FrontEnd.pdf": "./static/media/CV-Beatriz-Perez-FrontEnd.c623a7a8.pdf",
     "static/media/CV.jpg": "./static/media/CV.c5ec03df.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.62779cc3.js",
     "static/js/2.adf66301.chunk.js",
-    "static/css/main.d1603e27.chunk.css",
+    "static/css/main.bb3c795a.chunk.css",
     "static/js/main.e2a64aba.chunk.js"
   ]
 }
