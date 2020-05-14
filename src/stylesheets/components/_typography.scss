@@ -5,11 +5,15 @@
     src: url(../../Soulcraft.ttf);
 }
 
+.mine{
+    color: red;
+}
 .text__site--title{
     cursor: default;
     font-family: Soulcraft, 'Raleway', sans-serif;
     color: $colorTextBase;
     font-size: 60px;
+    font-variation-settings: "wdth" 0.5;
     @include mediaSize(tablet){
         font-size: 100px;
     }
@@ -17,20 +21,22 @@
         font-size: 160px;
     }
     .change1{
-        animation: titleTransform 5s linear infinite alternate;
+        animation: titleTransform 7s linear 0s infinite alternate;
     }
     .change2{
-        animation: titleTransform 5s linear 1.67s infinite alternate;
+        animation: titleTransform 7s linear 1s infinite alternate;
     }
     .change3{
-        animation: titleTransform 5s linear 3.34s infinite alternate;
+        animation: titleTransform 7s linear 2s infinite alternate;
     }
 }
 @keyframes titleTransform {
-    0% {    font-variation-settings: "wdth" 0, "slnt" 0;}
-    40% {    font-variation-settings: "wdth" 0, "slnt" 0;}
-    60% {  font-variation-settings: "wdth" 100, "slnt" 0;}
-    100% {  font-variation-settings: "wdth" 100, "slnt" 0;}
+    0%      {font-variation-settings: "wdth" 0, "slnt" 0;}
+    20%     {font-variation-settings: "wdth" 0, "slnt" 0;}
+    30%     {font-variation-settings: "wdth" 100, "slnt" 0;}
+    70%     {font-variation-settings: "wdth" 100, "slnt" 0;}
+    80%     {font-variation-settings: "wdth" 0, "slnt" 0;}
+    100%    {font-variation-settings: "wdth" 0, "slnt" 0;}
 }
 
 // MAIN SECTION TEXTS
