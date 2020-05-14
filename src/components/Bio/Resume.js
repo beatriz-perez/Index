@@ -13,7 +13,7 @@ export default class Resume extends Component {
                 <div className="column1">
                     <img src={CVimage} alt="CV_thumbnail" className="cv-image"/>
                     <a 
-                        href = {PdfEn}
+                        href = {PdfEs}
                         target = "_blank"
                         rel="noopener noreferrer"
                         className="download-button button__base text__regular"
@@ -21,7 +21,7 @@ export default class Resume extends Component {
                         Descargar CV en PDF, castellano
                     </a>
                     <a 
-                        href = {PdfEs}
+                        href = {PdfEn}
                         target = "_blank"
                         rel="noopener noreferrer"
                         className="download-button button__base text__regular"
