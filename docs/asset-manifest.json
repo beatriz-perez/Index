@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.cede4026.chunk.css",
+    "main.js": "./static/js/main.97d926cc.chunk.js",
+    "main.js.map": "./static/js/main.97d926cc.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.62779cc3.js",
+    "runtime-main.js.map": "./static/js/runtime-main.62779cc3.js.map",
+    "static/js/2.adf66301.chunk.js": "./static/js/2.adf66301.chunk.js",
+    "static/js/2.adf66301.chunk.js.map": "./static/js/2.adf66301.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.dfbb743f01406f7b4f68e892fa3d4843.js": "./precache-manifest.dfbb743f01406f7b4f68e892fa3d4843.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.cede4026.chunk.css.map": "./static/css/main.cede4026.chunk.css.map",
+    "static/js/2.adf66301.chunk.js.LICENSE.txt": "./static/js/2.adf66301.chunk.js.LICENSE.txt",
+    "static/media/CV-Beatriz-Perez-FrontEnd.pdf": "./static/media/CV-Beatriz-Perez-FrontEnd.c623a7a8.pdf",
+    "static/media/CV.jpg": "./static/media/CV.c5ec03df.jpg",
+    "static/media/LinkedInCV.jpeg": "./static/media/LinkedInCV.7e9ef1bf.jpeg",
+    "static/media/Resume-Beatriz-Perez FrontEnd.pdf": "./static/media/Resume-Beatriz-Perez FrontEnd.29d6da61.pdf",
+    "static/media/cv_picture.jpeg": "./static/media/cv_picture.95b885ac.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62779cc3.js",
+    "static/js/2.adf66301.chunk.js",
+    "static/css/main.cede4026.chunk.css",
+    "static/js/main.97d926cc.chunk.js"
+  ]
+}
