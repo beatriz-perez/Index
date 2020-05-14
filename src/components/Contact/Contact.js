@@ -94,7 +94,7 @@ export default class Contact extends Component {
 
                             <li className="contact__blockList--item text__regular">
                                 <a 
-                                    href={`https://twitter.com/intent/tweet?&text=Echa%20un%20vistazo%20a%20este%20portfolio%20de%20una%20FrontEnd%20developer%3A%20${PortfolioUrl}&hashtags=%2C%20FrontEndDeveloper`}
+                                    href={`https://twitter.com/intent/tweet?&text=Echa%20un%20vistazo%20a%20este%20portfolio%20de%20una%20FrontEnd%20developer%3A%20${PortfolioUrl}&hashtags=FrontEndDeveloper`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

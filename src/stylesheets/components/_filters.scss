@@ -1,7 +1,7 @@
 .firltersBox{
     margin: 30px 15px;
-    padding: 15px;
-    border: 1px solid $colorTheme4;
+    background-color: $colorTheme5;
+    padding: 5px;
 
     display: flex;
     flex-direction: column;
@@ -9,48 +9,23 @@
     align-items: flex-start;
 
     @include mediaSize(tablet){
-        margin: 50px 15px;
-        padding: 20px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
     }
 
-    &__set{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10px;
-        &:last-child{
-            margin-bottom: 0;
-        }
-        @include mediaSize(tablet){
-            margin-bottom: 20px;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-        }
-
-        .legend{
-            min-width: auto;
-            @include mediaSize(tablet){
-                min-width: 75px;
-            }
-            @include mediaSize(desktop){
-                min-width: 150px;
-            }
-        }
-        .inputBox{
-            margin-left: 75px;
+    .inputBox{
             margin-top: 3px;
-            min-width: auto;
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
             align-items: center;
             @include mediaSize(tablet){
                 margin-left: 5px;
-                min-width: 180px;
             }
             @include mediaSize(desktop){
                 margin-left: 5px;
-                min-width: 220px;
             }
 
             .label{
@@ -72,6 +47,5 @@
                 border-radius: 0;
                 min-width: 140px;
             }
-        }
     }
 }

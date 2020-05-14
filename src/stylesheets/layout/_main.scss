@@ -1,11 +1,12 @@
 // ESTILOS DE CONTENEDOR -----------------------------------------
 .container__page--main{
     width: 100vw;
+    min-height: 600px;
     background-color: $bacKgroundMain;
     position: relative;
     .colorBox{
         position: absolute;
-        top: 0px;
+        bottom: 0px;
         left: 0px;
         z-index: -1;
         width: 0;
@@ -19,6 +20,7 @@
     padding-top: 10px;
     position: relative;
 
+    min-height: 600px;
     height: $mainSectionHeightMobile;
     @include mediaSize(tablet){
         height: $mainSectionHeightTablet;

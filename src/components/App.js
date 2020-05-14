@@ -26,9 +26,7 @@ export default class App extends React.Component {
       scrollY: 0,
       projectsInfo: ProjectsInfoList,
       infoFilters: {
-        textFilter: "",
         typeFilter: "all",
-        statusFilter: "all",
         order: "id",
         orderReverse: false
       }
