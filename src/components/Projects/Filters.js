@@ -45,7 +45,7 @@ export default class Filters extends Component {
                     value="id"
                     checkValue={order} 
                     task={task} 
-                    labelText="ordenar por entrada"
+                    labelText="ordenar por antigüedad"
                 />
                 <CheckboxInput
                     name="orderReverse"
