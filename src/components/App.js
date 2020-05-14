@@ -83,7 +83,7 @@ export default class App extends React.Component {
         <Aside 
           id="works" 
           title="works" 
-          description="estos son algunos de mis trabajos, puedes filtrarlos y ordenarlos para ver los que más te interesen"
+          description="estos son algunos de mis trabajos, en cada uno de ellos encontrarás el link al repositorio de GitHub con el código, así como a la web funcionando"
           themeColor="false"
           >
             <Filters info={this.state.infoFilters} task={this.changeFilters}/>

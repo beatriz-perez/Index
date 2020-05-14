@@ -33,27 +33,31 @@ export default class Filters extends Component {
                     option3="como estudiante de Adalab"
                     value3="Adalab"
                 />
-                <RadioImput
-                    name="order" 
-                    value="name"
-                    checkValue={order} 
-                    task={task} 
-                    labelText="ordenar por nombre"
-                />
-                <RadioImput
-                    name="order" 
-                    value="id"
-                    checkValue={order} 
-                    task={task} 
-                    labelText="ordenar por antigüedad"
-                />
-                <CheckboxInput
-                    name="orderReverse"
-                    value="reverse"
-                    checked={orderReverse}
-                    task={task} 
-                    labelText="invertir el orden" 
-                />
+                <div className="orderBox">
+                    <RadioImput
+                        name="order" 
+                        value="name"
+                        checkValue={order} 
+                        task={task} 
+                        labelText="ordenar por nombre"
+                    />
+                    <RadioImput
+                        name="order" 
+                        value="id"
+                        checkValue={order} 
+                        task={task} 
+                        labelText="ordenar por antigüedad"
+                    />
+                    <CheckboxInput
+                        name="orderReverse"
+                        value="reverse"
+                        checked={orderReverse}
+                        task={task} 
+                        labelText="invertir el orden" 
+                    />
+
+                </div>
+                    
             </form> 
         )
     }
