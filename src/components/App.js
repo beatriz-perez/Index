@@ -12,6 +12,7 @@ import Main from './Layout/Main';
 import ParallaxSection from './Layout/ParallaxSection';
 import Aside from './Layout/Aside';
 import Bio from './Bio/Bio';
+import Filters from './Projects/Filters';
 import ProjectList from './Projects/ProjectList';
 import Contact from './Contact/Contact';
 import Footer from './Layout/Footer';
@@ -20,9 +21,17 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.handleScroll = this.handleScroll.bind(this);
+    this.changeFilters = this.changeFilters.bind(this);
     this.state = {
       scrollY: 0,
-      projectsInfo: ProjectsInfoList
+      projectsInfo: ProjectsInfoList,
+      infoFilters: {
+        textFilter: "",
+        typeFilter: "all",
+        statusFilter: "all",
+        order: "id",
+        orderReverse: false
+      }
     }
   }
   componentDidMount() {
@@ -35,9 +44,16 @@ export default class App extends React.Component {
   handleScroll(event) {
       let distanceToTop = window.scrollY;
       this.setState({
-        scrollY: distanceToTop
+        scrollY: distanceToTop,
       });
   }
+
+  changeFilters(name, value) {
+    const newInfoFilters = this.state.infoFilters;
+    newInfoFilters[name] = value;
+    this.setState({ infoFilters: newInfoFilters })
+  };
+
 
   render() {
     return (
@@ -72,7 +88,8 @@ export default class App extends React.Component {
           description="estos son algunos de mis trabajos, puedes filtrarlos y ordenarlos para ver los que más te interesen"
           themeColor="false"
           >
-            <ProjectList info={this.state.projectsInfo}/>
+            <Filters info={this.state.infoFilters} task={this.changeFilters}/>
+            <ProjectList info={this.state}/>
         </Aside>
 
         <Aside 

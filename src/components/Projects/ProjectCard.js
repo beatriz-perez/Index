@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class ProjectCard extends Component {
     render() {
 
-        const { id, name, type, created:{ year, month }, status, description, imageURL, codeURL, demoURL } = this.props.info;
+        const { name, type, created:{ year, month }, description, imageURL, codeURL, demoURL } = this.props.info;
 
         const months = [
             "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
@@ -40,10 +40,20 @@ export default class ProjectCard extends Component {
                             {description}
                         </p>
                         <div>
-                            <a className="button__base text__regular" href={codeURL} target="_blank">
+                            <a 
+                                className="button__base text__regular" 
+                                href={codeURL} 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 ver repositorio y código
                             </a>
-                            <a className="button__base text__regular" href={demoURL} target="_blank">
+                            <a 
+                                className="button__base text__regular" 
+                                href={demoURL} 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 ver la web funcionando
                             </a>
                         </div>

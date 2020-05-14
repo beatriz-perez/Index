@@ -32,10 +32,18 @@
 
 .textBox{
     position: absolute;
-    top: 40vh;
+    bottom: 50px;
     left: 0px;
     width: 50vw;
     text-align: right;
+
+    @include mediaSize(tablet){
+        bottom: 150px;
+    }
+    @include mediaSize(desktop){
+        bottom: 100px;
+    }
+
     .main__text{
         margin-bottom: 15px;
     }

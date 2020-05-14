@@ -24,6 +24,9 @@
 // ESTILOS DE ELEMENTOS -------------------------------------------
 
 .footer__text{
+    &--link{
+        margin-left: 5px;
+    }
     .icon{
         font-size: 25px;
         padding: 5px;

@@ -61,7 +61,7 @@ export default class Contact extends Component {
                                     target="_blank"
                                     rel="noopener noreferrer"            
                                 >
-                                    <i class="fab fa-twitter contact-icon"></i> perfil de twitter                                
+                                    <i className="fab fa-twitter contact-icon"></i> perfil de twitter                                
                                 </a>
                             </li>
 
@@ -71,7 +71,7 @@ export default class Contact extends Component {
                                     target="_blank"
                                     rel="noopener noreferrer"            
                                 >
-                                    <i class="fab fa-github contact-icon"></i> perfil de github                                
+                                    <i className="fab fa-github contact-icon"></i> perfil de github                                
                                 </a>
                             </li>
 
@@ -98,7 +98,7 @@ export default class Contact extends Component {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i class="fab fa-twitter contact-icon"></i> compartir en twitter
+                                    <i className="fab fa-twitter contact-icon"></i> compartir en twitter
                                 </a>
                             </li>
 
@@ -107,7 +107,7 @@ export default class Contact extends Component {
                                     data-action="share/whatsapp/share" 
                                     href={`whatsapp://send?text=Echa%20un%20vistazo%20a%20este%20portfolio%20de%20una%20FrontEnd%20developer%3A%20${PortfolioUrl}`}
                                 >
-                                    <i class="fab fa-whatsapp contact-icon"></i>compartir en whatsapp
+                                    <i className="fab fa-whatsapp contact-icon"></i>compartir en whatsapp
                                 </a>
                             </li>
                         </ul>

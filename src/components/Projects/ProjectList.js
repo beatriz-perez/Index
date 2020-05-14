@@ -7,7 +7,8 @@ import ProjectCard from './ProjectCard';
 export default class ProjectList extends Component {
     render() {
 
-        const {ProjectsInfoList} = this.props.info;
+        const {projectsInfo: {ProjectsInfoList}, infoFilters:{ order, orderReverse, statusFilter, textFilter, typeFilter}} = this.props.info;
+
         const generateJSX = (item, index) => {
             return (
                 <li key={index} className="listElement">
@@ -15,7 +16,21 @@ export default class ProjectList extends Component {
                 </li>
             )
         };
-        const resultsArray = ProjectsInfoList.map(generateJSX);
+
+        const filteredArray = ProjectsInfoList
+            .filter(item => textFilter === "" || item.name.toLowerCase().includes(textFilter.toLowerCase()))
+            .filter(item => typeFilter === "all" || item.type.includes(typeFilter))
+            .filter(item => statusFilter === "all" || item.status ===  statusFilter)
+            .sort((a, b) => {
+                if (a[order] > b[order]) { return 1; }
+                if (a[order] < b[order]) { return -1; }
+                else { return 0; }
+            })
+            .map(generateJSX);
+        const resultsArray = orderReverse === false ? filteredArray : filteredArray.reverse();
+
+
+
         const totalInfoText = `Hay ${ProjectsInfoList.length} proyectos en total.`
         let resultInfoText;
         switch (resultsArray.length) {

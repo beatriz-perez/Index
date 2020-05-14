@@ -49,7 +49,7 @@
                 "year": 2020,
                 "month": 3
             },
-            "status": "finished",
+            "status": "ongoing",
             "type": "proyecto personal",
             "description": "Proyecto personal realizado como práctica de maquetación. Web realizada con HTML y CSS en la que se recopilan métodos y trucos.",
             "imageURL": "",
@@ -180,20 +180,6 @@
             "description": "Aplicación web de búsqueda y realización de listados de usuarios y repositorios de GitHub según criterios a definir por el usuario. Desarrollada con React.",
             "imageURL": "",
             "codeURL": "https://github.com/beatriz-perez/check-my-repos",
-            "demoURL": ""
-        },
-        {
-            "id": 14,
-            "name": "",
-            "created": {
-                "year": 2020,
-                "month": 5
-            },
-            "status": "ongoing",
-            "type": "",
-            "description": "",
-            "imageURL": "",
-            "codeURL": "",
             "demoURL": ""
         }
     ]

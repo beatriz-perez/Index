@@ -12,7 +12,7 @@ export default class Bio extends Component {
         return (
             <div className="bio-box">
                 <div className="bio">
-                    <img src={Picture} alt="CV Picture" className="bio__picture"/>
+                    <img src={Picture} alt="CV" className="bio__picture"/>
 
                     <p className="bio__text bio__text--title text__section--title">Beatriz Pérez Fernández - FrontEnd Developer</p>
                     <p className="bio__text bio__text--title text__bold">Experiencia</p>
@@ -50,16 +50,16 @@ export default class Bio extends Component {
                         Sigo realizando cursos y proyectos y ampliando mis conocimientos cada día. Algunas de mis competencias adquiridas son: 
                     </p>
                     <p className="bio__text text__regular">
-                        HTML <i class="fab fa-html5 skill-icon"></i> , 
-                        CSS <i class="fab fa-css3-alt skill-icon"></i> , 
-                        SASS <i class="fab fa-sass skill-icon"></i> , 
-                        JavaScript <i class="fab fa-js-square skill-icon"></i> , 
+                        HTML <i className="fab fa-html5 skill-icon"></i> , 
+                        CSS <i className="fab fa-css3-alt skill-icon"></i> , 
+                        SASS <i className="fab fa-sass skill-icon"></i> , 
+                        JavaScript <i className="fab fa-js-square skill-icon"></i> , 
                         APIs AJAX, 
-                        React <i class="fab fa-react skill-icon"></i> , 
-                        Node <i class="fab fa-node skill-icon"></i>
+                        React <i className="fab fa-react skill-icon"></i> , 
+                        Node <i className="fab fa-node skill-icon"></i>
                         <br/>
-                        control de versiones con Git <i class="fab fa-git skill-icon"></i> 
-                        y GitHub <i class="fab fa-github skill-icon"></i> y técnicas de trabajo colaborativo
+                        control de versiones con Git <i className="fab fa-git skill-icon"></i> 
+                        y GitHub <i className="fab fa-github skill-icon"></i> y técnicas de trabajo colaborativo
                         <br/> 
                         <br/> 
                         marcos de trabajo <span className="text__bold">Agile</span> y <span className="text__bold">Scrum</span>
@@ -71,7 +71,7 @@ export default class Bio extends Component {
                         Puedes ver más información en mi <span className="text__bold">CV y mi perfil de Linkedin</span> <i className="fas fa-arrow-right"></i>
                     </p>
                     <p className="bio__text text__regular">
-                        Y encontrarás algunos de mis <span className="text__bold">proyectos</span> un poco más abajo <i class="fas fa-arrow-down"></i>
+                        Y encontrarás algunos de mis <span className="text__bold">proyectos</span> un poco más abajo <i className="fas fa-arrow-down"></i>
                     </p>
 
                 </div>

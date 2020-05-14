@@ -14,14 +14,16 @@ export default class Resume extends Component {
                     <img src={CVimage} alt="CV_thumbnail" className="cv-image"/>
                     <a 
                         href = {PdfEn}
-                        target = "_blank" 
+                        target = "_blank"
+                        rel="noopener noreferrer"
                         className="download-button button__base text__regular"
                     > 
                         Descargar CV en PDF, castellano
                     </a>
                     <a 
                         href = {PdfEs}
-                        target = "_blank" 
+                        target = "_blank"
+                        rel="noopener noreferrer"
                         className="download-button button__base text__regular"
                     > 
                         Download english PDF Resume 

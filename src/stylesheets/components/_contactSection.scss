@@ -1,17 +1,31 @@
 .contact{
-    margin-top: 30px;
-    height: 100px;
+    margin-top: 15px;
+    height: auto;
     width: 100%;
-    margin-bottom: 30px;
 
     &__blockList{
         margin: 10px;
+        padding-left: 30px;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: flex-start;
 
+        @include mediaSize(tablet){
+            padding-left: 0;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;    
+        }
+        @include mediaSize(desktop){
+            padding-left: 0;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;    
+        }    
+
         &--block{
+            padding: 15px;
         }
         &--title{
             margin-bottom: 20px;
