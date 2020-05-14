@@ -1,6 +1,6 @@
 // ESTILOS DE CONTENEDOR -----------------------------------------
 .container__page--parallaxSection{
-    width: 100vw;
+    width: 100%;
     background-color: $backgroundParallax;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,6 @@
 .container__section--parallaxSection{
     width: 100%;
     position: relative;
-
     height: $parallaxSectionHeightMobile;
     @include mediaSize(tablet){
         height: $parallaxSectionHeightTablet;
