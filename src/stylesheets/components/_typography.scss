@@ -2,7 +2,7 @@
 // SITE TITLE
 .text__site--title{
     cursor: default;
-    font-family: Soulcraft;
+    font-family: Soulcraft, 'Raleway', sans-serif;;
     color: $colorTextBase;
     font-size: 60px;
     @include mediaSize(tablet){
