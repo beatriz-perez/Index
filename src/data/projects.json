@@ -44,7 +44,7 @@
         },
         {
             "id": 4,
-            "name": "CSS: libro de hechizos",
+            "name": "Spells",
             "created": {
                 "year": 2020,
                 "month": 3
@@ -53,8 +53,8 @@
             "type": "proyecto personal",
             "description": "Proyecto personal realizado como práctica de maquetación. Web realizada con HTML y CSS en la que se recopilan métodos y trucos.",
             "imageURL": "https://repository-images.githubusercontent.com/246540742/56e06600-95fe-11ea-824a-1ae79efb846a",
-            "codeURL": "https://github.com/beatriz-perez/CSS-libro-de-hechizos",
-            "demoURL": "https://beatriz-perez.github.io/CSS-libro-de-hechizos/"
+            "codeURL": "https://github.com/beatriz-perez/spells",
+            "demoURL": "https://beatriz-perez.github.io/spells/"
         },
         {
             "id": 5,
