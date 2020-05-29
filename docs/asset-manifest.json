@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.95b79faa.chunk.css",
-    "main.js": "./static/js/main.7bd730dd.chunk.js",
-    "main.js.map": "./static/js/main.7bd730dd.chunk.js.map",
+    "main.css": "./static/css/main.5f189722.chunk.css",
+    "main.js": "./static/js/main.ffd19846.chunk.js",
+    "main.js.map": "./static/js/main.ffd19846.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.62779cc3.js",
     "runtime-main.js.map": "./static/js/runtime-main.62779cc3.js.map",
     "static/js/2.adf66301.chunk.js": "./static/js/2.adf66301.chunk.js",
     "static/js/2.adf66301.chunk.js.map": "./static/js/2.adf66301.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.beee6ec25f2c5839833b5ce7f54a446a.js": "./precache-manifest.beee6ec25f2c5839833b5ce7f54a446a.js",
+    "precache-manifest.d099b604f99ce3c7ed1492770a833caa.js": "./precache-manifest.d099b604f99ce3c7ed1492770a833caa.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.95b79faa.chunk.css.map": "./static/css/main.95b79faa.chunk.css.map",
+    "static/css/main.5f189722.chunk.css.map": "./static/css/main.5f189722.chunk.css.map",
     "static/js/2.adf66301.chunk.js.LICENSE.txt": "./static/js/2.adf66301.chunk.js.LICENSE.txt",
     "static/media/CV-Beatriz-Perez-FrontEnd.pdf": "./static/media/CV-Beatriz-Perez-FrontEnd.c623a7a8.pdf",
     "static/media/CV.jpg": "./static/media/CV.c5ec03df.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.62779cc3.js",
     "static/js/2.adf66301.chunk.js",
-    "static/css/main.95b79faa.chunk.css",
-    "static/js/main.7bd730dd.chunk.js"
+    "static/css/main.5f189722.chunk.css",
+    "static/js/main.ffd19846.chunk.js"
   ]
 }
