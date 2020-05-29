@@ -6,13 +6,13 @@ class Main extends React.Component {
     render() {
         const scrollY = this.props.info;
         let boxOpacity = scrollY < 350 ? (scrollY - 50) / 300 : 1 ;
-        let textPosition = -60 + (100 * boxOpacity);
+        let textPosition = scrollY < 350 ? (350/3 - scrollY/3) : 0 ;
 
         let colorBoxStyle = {
             opacity: boxOpacity
         }
         let textBoxStyle = {
-            left: `${textPosition}vw`
+            right: `${textPosition}vw`
         }
 
         return (
