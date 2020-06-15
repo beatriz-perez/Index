@@ -181,6 +181,21 @@
             "imageURL": "https://repository-images.githubusercontent.com/255313584/6ad79800-95fd-11ea-80e2-0b5e23b8e77f",
             "codeURL": "https://github.com/beatriz-perez/check-my-repos",
             "demoURL": "https://beatriz-perez.github.io/check-my-repos/"
+        },
+        {
+            "id": 14,
+            "name": "rate advisor",
+            "created": {
+                "year": 2020,
+                "month": 6
+            },
+            "status": "finished",
+            "type": "proyecto personal",
+            "description": "Aplicación web de comparación de tarifas de criptowallets para el cambio de moneda en función del tipo y cantidad. Desarrollada con React para ElevenYellow.",
+            "imageURL": "https://repository-images.githubusercontent.com/272047726/3c005a80-aef8-11ea-8c51-4ffc94a2a02e",
+            "codeURL": "https://github.com/beatriz-perez/tht",
+            "demoURL": "https://beatriz-perez.github.io/tht/"
         }
+
     ]
 }
