@@ -20,8 +20,8 @@ export default class ProjectList extends Component {
         const filteredArray = ProjectsInfoList
             .filter(item => typeFilter === "all" || item.type.includes(typeFilter))
             .sort((a, b) => {
-                if (a[order] > b[order]) { return 1; }
-                if (a[order] < b[order]) { return -1; }
+                if (a[order] > b[order]) { return -1; }
+                if (a[order] < b[order]) { return 1; }
                 else { return 0; }
             })
             .map(generateJSX);

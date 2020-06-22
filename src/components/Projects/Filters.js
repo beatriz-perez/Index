@@ -32,6 +32,8 @@ export default class Filters extends Component {
                     value2="personal"
                     option3="como estudiante de Adalab"
                     value3="Adalab"
+                    option4="pruebas técnicas"
+                    value4="prueba"
                 />
                 <div className="orderBox">
                     <RadioImput

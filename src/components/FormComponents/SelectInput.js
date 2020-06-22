@@ -12,7 +12,7 @@ export default class SelectInput extends Component {
     }
 
     render() {
-        const { name, value, labelText, option1, value1, option2, value2, option3, value3 } = this.props;
+        const { name, value, labelText, option1, value1, option2, value2, option3, value3, option4, value4 } = this.props;
         return (
             <div className="inputBox">
                 <label htmlFor={name} className="label text__regular">
@@ -22,6 +22,7 @@ export default class SelectInput extends Component {
                     <option value={value1}>{option1}</option>
                     <option value={value2}>{option2}</option>
                     <option value={value3}>{option3}</option>
+                    <option value={value4}>{option4}</option>
                 </select>
             </div>
         )

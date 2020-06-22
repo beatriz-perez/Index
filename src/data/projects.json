@@ -190,12 +190,25 @@
                 "month": 6
             },
             "status": "finished",
-            "type": "proyecto personal",
+            "type": "prueba técnica",
             "description": "Aplicación web de comparación de tarifas de criptowallets para el cambio de moneda en función del tipo y cantidad. Desarrollada con React para ElevenYellow.",
             "imageURL": "https://repository-images.githubusercontent.com/272047726/3c005a80-aef8-11ea-8c51-4ffc94a2a02e",
             "codeURL": "https://github.com/beatriz-perez/tht",
             "demoURL": "https://beatriz-perez.github.io/tht/"
+        },
+        {
+            "id": 15,
+            "name": "city finder",
+            "created": {
+                "year": 2020,
+                "month": 6
+            },
+            "status": "finished",
+            "type": "prueba técnica",
+            "description": "Buscador de ciudades por región en función de su nombre. Microsite desarrollado para MiCole con Bootstrap y JQuery",
+            "imageURL": "https://repository-images.githubusercontent.com/273977806/80b35680-b40e-11ea-98a9-105cec635e4a",
+            "codeURL": "https://github.com/beatriz-perez/cityfinder",
+            "demoURL": "https://beatriz-perez.github.io/cityfinder/"
         }
-
     ]
 }
